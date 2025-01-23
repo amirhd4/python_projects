@@ -28,7 +28,7 @@ while guess_count > 0:
             print("Your guess is higher than the selected number!")
         guess_count -= 1
         if guess_count == 0:
-            print("You lose!")
+            print("You lost!")
     except Exception as error:
         print("Please enter a valid number: ", error)
 
